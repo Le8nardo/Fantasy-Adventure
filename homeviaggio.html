@@ -1,0 +1,159 @@
+<html>
+<head>
+    <style>
+    </style> 
+    <script>
+      document.addEventListener('copy',  function (e) {
+      e.preventDefault();});
+        const images = 
+        [['eventi.jpg', 'eventiB.jpg'],
+         ['documenti.jpg', 'documentiB.jpg'],
+            ['preparare la valigia.jpg', 'preparare la valigiaB.jpg'],
+            ['destinazioni.jpg', 'destinazioniB.jpg'],
+            ['pernottare.jpg', 'pernottareB.jpg'],
+            ['trasporto.jpg', 'trasportoB.jpg']
+        ];
+
+        function cambiaImmagine(element, rowIndex, boxIndex) {
+            const index = rowIndex * 3 + boxIndex;
+            element.style.backgroundImage = "url('" + images[index][1] + "')";
+        }
+
+        function resettaImmagine(element, rowIndex, boxIndex) {
+            const index = rowIndex * 3 + boxIndex;
+            element.style.backgroundImage = "url('" + images[index][0] + "')";
+        }
+    </script>       
+    <title>Fantasy Adventure</title>
+        <link rel="icon" href="icon.jpg" type="image/x-icon">
+        <link rel="stylesheet" href="homeviaggio.css">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+        <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet"> 
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <style>
+        #carouselExample{
+            width: ;
+            margin: auto;
+        }
+    </style>
+</head>
+<body>
+    <div  class="p-3 border-0 bd-example m-0 border-0">
+          <h2 id="titlepage"><a href="index.html"><b>FANTASY ADVENTURE</b></a></h2>
+          </div>
+    <div class="barramenu">
+            <ul class="nav nav-tabs">
+            <li class="nav-item dropdown" onmouseover="showDropdown('dropdown-menu-1')" onmouseout="hideDropdown('dropdown-menu-1')">
+
+            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Per Il Viaggio</a>
+
+            <ul class="dropdown-menu"  id="dropdown-menu-1">
+              <li><a class="dropdown-item" href="workinginprogress.html">Documenti</a></li>
+              <li><a class="dropdown-item" href="workinginprogress.html">Preparare la Valigia</a></li>
+              <li><a class="dropdown-item" href="workinginprogress.html">Eventi</a></li>
+              <li><a class="dropdown-item" href="workinginprogress.html">Destinazioni</a></li>
+              <li><a class="dropdown-item" href="workinginprogress.html">Pernottare</a></li>
+              <li><a class="dropdown-item" href="workinginprogress.html">Trasporto</a></li>
+            </ul>
+
+            </li>
+
+            <li class="nav-item dropdown" onmouseover="showDropdown('dropdown-menu-2')" onmouseout="hideDropdown('dropdown-menu-2')">
+
+            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Viaggi</a>
+
+            <ul class="dropdown-menu" id="dropdown-menu-2" >
+           <li><a class="dropdown-item" href="homeviaggio.html">Prossimo Viaggio</a></li>
+           <li><a class="dropdown-item" href="workinginprogress.html">Viaggi In Programma</a></li>
+            </ul>
+
+            </li>
+
+           <li class="nav-item dropdown" onmouseover="showDropdown('dropdown-menu-3')" onmouseout="hideDropdown('dropdown-menu-3')">
+
+            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Negozio</a>
+
+            <ul class="dropdown-menu" >
+           <li><a class="dropdown-item" href="workinginprogress.html">Libreria</a></li>
+           <li><a class="dropdown-item" href="workinginprogress.html">Per il Viaggio</a></li>
+            </ul>
+            </li>
+          </ul></div>
+    <div class="imperoquattroregni">
+        <h3>IMPERO DEI QUATTRO REGNI</h3>
+    </div>
+    <div class="linkviaggio">
+        <div id="carouselExample" class="carousel slide">
+            <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="s1.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="s2.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="s3.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="s4.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="s5.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="s6.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="s7.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="s8.jpg" class="d-block w-100" alt="...">
+            </div>
+        </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+    </button>
+    </div>
+    </div>
+    <div class="container">
+        <div class="row1">
+            <a class="immagine1" href="workinginprogress.html" onmouseover="cambiaImmagine(this, 0, 0);" onmouseout="resettaImmagine(this, 0, 0);">Link alla pagina</a>
+            <a class="immagine2" href="workinginprogress.html"  onmouseover="cambiaImmagine(this, 0, 1);" onmouseout="resettaImmagine(this, 0, 1);">Link alla pagina</a>
+            <a class="immagine3"href="workinginprogress.html" onmouseover="cambiaImmagine(this, 0, 2);" onmouseout="resettaImmagine(this, 0, 2);">Link alla pagina</a>
+        </div>
+        <div class="row2">
+            <a class="immagine4" href="workinginprogress.html" onmouseover="cambiaImmagine(this, 1, 0);" onmouseout="resettaImmagine(this, 1, 0);">Link alla pagina</a>
+            <a class="immagine5" href="workinginprogress.html" onmouseover="cambiaImmagine(this, 1, 1);" onmouseout="resettaImmagine(this, 1, 1);">Link alla pagina</a>
+            <a class="immagine6" href="workinginprogress.html" onmouseover="cambiaImmagine(this, 1, 2);" onmouseout="resettaImmagine(this, 1, 2);">Link alla pagina</a>
+        </div>
+    </div>
+    </div>
+    <div class="testoviaggio">
+      <p>L'<b>impero dei quattro regni</b> è uno Stato ricco e stabile formato dall'unione di quattro regni e due grandi regioni colonizzate a est e sud-ovest: l'ex territorio dei draghi e l'ex territorio desertico degli elfi.</br>
+      L'impero è una delle tre maggiori potenze a livello mondiale, insieme alla repubblica di Thingol e la federazione delle sette tribu.
+      La potenza dell'impero dipende dalla sua forza militare, dalle sue colonie ad est, dalla produzione industriale e dal commercio che pratica esportando i propri prodotti e riesportando prodotti lavorati da importazioni.</br>
+      L'impero è uno Stato a prevalenza umana ma per via del grande volume di commerci sono presenti anche elfi e nani anche in insediamenti nelle maggiori città con quartieri dedicati.</br></p>
+      <p>regioni d'interesse per l'avventuriero sono la parte direttamente interna della costa ovest; le regioni interne montane; le regioni colonizzate dell'ex territorio dei draghi e dell'ex territorio desertico degli elfi; la costa est appena a sud della città della torre</p>
+      <p>regioni d'interesse per il turista sono le aree motane del nord e le città costiere</p>
+      <p>regioni d'interesse per il mercante sono la città della torre, la capitale, la città dello stretto a nord ovest e le città principali del golfo dei draghi a est</p>
+      <p>regioni d'interesse per il soldato sono le aree montane, le principali città, i confini ad est e sud ovest</p>
+    </div>    
+    <div class="footer">
+          <a href="https://discord.com">discord</a></br>
+          <a href="https://www.kickstarter.com/?lang=it">kickstarter</a></br>
+          <a href="https://www.patreon.com/it-IT">patreon</a></br>
+          <a href="managementplan.html">fonti, abstract e project management plan</a></br>
+          <p>se vuoi partecipare nella costruzione di questo mondo con immagini, idee o nomi puoi farlo scrivendo alla email: FantasyAdventurePH@gmail.com</p></br>
+          <p>&copy;Copyright 2024, Fantasy Adventure Publishing House. Author: Leonardo Beber. All rights reserved</p></div>
+</body>
+</html>

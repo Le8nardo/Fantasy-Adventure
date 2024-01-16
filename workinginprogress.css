@@ -1,0 +1,125 @@
+.titlepage{
+      width: 1400 auto; /* Larghezza del box */
+      height: 60px; /* Altezza del box */
+      background-color: #f0f0f0; /* Colore di sfondo */
+      padding-left: 40px;
+      padding-top: 10px;
+}
+#titlepage{
+	font-family: verdana;
+	margin-left: 32px;
+}
+
+#titlepage a,#footer a{
+	text-decoration: none;
+	color: #585858;
+}
+
+#nav {
+    margin: 0;
+    padding: 0.5em 0;
+    background-color: #bcbcc4;
+    text-align: center;
+    color: #585888;
+
+}
+      padding: 20px; /* Spazio interno al box */
+      margin: 20px; /* Margine esterno al box */
+      margin-top: 80px;
+
+.barramenu{
+      width: 1400 auto; /* Larghezza del box */
+      height: 100px; /* Altezza del box */
+      background-color: #f0f080; /* Colore di sfondo */
+      padding:40px;
+      margin-top: 10px;
+
+} 
+
+.testoprogetto{
+      width: 1400px auto; /* Larghezza del box */
+      height: 300px; /* Altezza del box */
+      background-color:; /* Colore di sfondo */
+      padding: 20px; /* Spazio interno al box */
+      margin: 20px; /* Margine esterno al box */
+      margin-top: 80px;
+      padding-right: 20px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+}
+
+.testoprogetto p{
+  text-align: center;
+  padding-top: 40px;
+}
+
+    .testoprogetto p {
+      font-family: Arial, sans-serif;
+      font-size: 16px;
+      color: #333;
+    }
+
+.footer{
+      width: auto; /* Larghezza del box */
+      height: 200px auto; /* Altezza del box */
+      background-color: #f0f0f0; /* Colore di sfondo */
+      margin-top: 1400px auto;
+      text-align: center;
+      padding: 40px;
+
+}
+
+.footer a{
+	text-decoration: none;
+	color: #585858;
+}
+
+.custom-space {
+  width: 90%;
+  margin: 20px auto;
+  background-color: #efefef;
+  height: 258px auto;
+  /* Aggiungi altre regole CSS se necessario */
+}
+
+.barramenu a{
+	text-decoration: none;
+	color: #585858;
+
+}
+
+    .dropdown {
+      position: relative;
+      display: inline-block;
+    }
+
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: #f9f9f9;
+      min-width: 160px;
+      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+      z-index: 1;
+    }
+
+    .dropdown-menu {
+      display: none;
+    }
+    .dropdown:hover .dropdown-menu {
+      display: block
+    }
+
+    /* Stile degli elementi del dropdown */
+    .dropdown-content a {
+      color: black;
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+    }
+
+    .dropdown-content a:hover {
+      background-color: #f1f1f1;
+    }
+    

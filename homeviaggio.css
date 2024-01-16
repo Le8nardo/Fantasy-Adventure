@@ -1,0 +1,287 @@
+
+        .immagine {
+            background-image: url('spiaggia.jpg');
+            width: 80px;
+            height: 80px;
+            display: block;
+            text-indent: -9999px;
+            transition: background-image 0.3s ease;
+            flex: 0 0 calc(33.33% - 20px);
+            margin: 0 10px;
+            background-size: cover;
+            background-position: center;
+            border: 1px solid #ddd;
+            cursor: pointer;
+            }
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+            width: 80% auto;}
+        .row1 {
+            display: flex;
+            justify-content: space-evenly;
+            width: 90%;
+            margin: 10px 0;}
+        .row2 {
+            display: flex;
+            justify-content: space-evenly;
+            width: 90%;
+            margin: 10px 0;}
+        .footer a{
+            text-decoration: none;
+            color: #585858;}
+        .footer{
+            width: auto; /* Larghezza del box */
+            height: 200px auto; /* Altezza del box */
+            background-color: #f0f0f0; /* Colore di sfondo */
+            margin-top: 1400px auto;
+            text-align: center;
+            padding: 40px;
+            font-family: verdana;}
+        .dropdown {
+            position: relative;
+         display: inline-block;}
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #f9f9f9;
+             min-width: 160px;
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+         z-index: 1;}
+        .dropdown-menu {
+            display: none;
+         }
+        .dropdown:hover .dropdown-menu {
+            display: block
+            }
+        .dropdown-content a {
+          color: black;
+          padding: 12px 16px;
+           text-decoration: none;
+          display: block;}
+        .dropdown-content a:hover {
+            background-color: #f1f1f1;}
+        .testoviaggio{
+            width: 90%;
+            padding: 20px;
+            margin-left: 80px;
+            }
+        .titlepage{
+            width: 1400 auto; /* Larghezza del box */
+            height: 60px; /* Altezza del box */
+            background-color: #f0f0f0; /* Colore di sfondo */
+            padding-left: 40px;
+            padding-top: 10px;
+         }
+        #titlepage{
+          font-family: verdana;
+         margin-left: 32px;}
+        #titlepage a,#footer a{
+         text-decoration: none;
+         color: #585858;}
+        #nav {
+            margin: 0;
+            padding: 0.5em 0;
+            background-color: #bcbcc4;
+            text-align: center;
+            color: #585888;}
+            padding: 20px;
+            margin: 20px;
+            margin-top: 80px;
+        .barramenu{
+            width: 1400 auto;
+            height: 100px;
+            background-color: #f0f080;
+            padding:40px;
+            margin-top: 10px;} 
+
+        .imperoquattroregni{
+
+        }    
+
+        .linkviaggio {
+            position: relative;
+            width: 80%;
+            height: 200px;
+            margin: 20px auto;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            }
+        .viaggioimmagine {
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            z-index: 1;
+            background-image: url(spiaggia.jpg);
+            background-size: cover;
+            background-position: center;
+            }
+        .viaggioimmagine, .viaggioimmagine:hover, .viaggioimmagine:active, .viaggioimmagine:visited {
+            text-decoration: none;
+            }
+            }
+        .testoprogetto{
+            width: 1400px auto; /* Larghezza del box */
+            height: 300px; /* Altezza del box */
+            background-color: #f0f0f0; /* Colore di sfondo */
+            padding: 20px; /* Spazio interno al box */
+            margin: 20px; /* Margine esterno al box */
+            margin-top: 80px;
+            padding-right: 20px;
+            margin-right: 80px;
+            }
+        .testoprogetto p{
+            }
+        .testoprogetto p {
+            font-family: Arial, sans-serif;
+            font-size: 16px;
+            color: #333;
+            padding: 20px;
+            height: 300px;
+            margin-right: 80px;
+            }
+        .footer{
+            width: auto; 
+            height: 200px auto;
+            background-color: #f0f0f0;
+            margin-top: 1400px auto;
+            text-align: center;
+            padding: 40px;}
+        .footer a{
+            text-decoration: none;
+            color: #585858;
+            }
+        .custom-space {
+            width: 90%;
+            margin: 20px auto;
+            background-color: #efefef;
+            height: 258px auto;}
+        .barramenu a{
+            text-decoration: none;
+            color: #585858;}
+    .immagine1 {
+            background-image: url('eventi.jpg');
+            width: 80px;
+            height: 80px;
+            display: block;
+            text-indent: -9999px;
+            transition: background-image 0.3s ease;
+            flex: 0 0 calc(33.33% - 20px);
+            margin: 0 10px;
+            background-size: cover;
+            background-position: center;
+            border: 1px solid #ddd;
+            cursor: pointer;
+        }
+    .immagine2 {
+            background-image: url('documenti.jpg');
+            width: 80px;
+            height: 80px;
+            display: block;
+            text-indent: -9999px;
+            transition: background-image 0.3s ease;
+            flex: 0 0 calc(33.33% - 20px);
+            margin: 0 10px;
+            background-size: cover;
+            background-position: center;
+            border: 1px solid #ddd;
+            cursor: pointer;
+        }
+    .immagine3 {
+            background-image: url('preparare la valigia.jpg');
+            width: 80px;
+            height: 80px;
+            display: block;
+            text-indent: -9999px;
+            transition: background-image 0.3s ease;
+            flex: 0 0 calc(33.33% - 20px);
+            margin: 0 10px;
+            background-size: cover;
+            background-position: center;
+            border: 1px solid #ddd;
+            cursor: pointer;
+        }
+    .immagine4 {
+            background-image: url('destinazioni.jpg');
+            width: 80px;
+            height: 80px;
+            display: block;
+            text-indent: -9999px;
+            transition: background-image 0.3s ease;
+            flex: 0 0 calc(33.33% - 20px);
+            margin: 0 10px;
+            background-size: cover;
+            background-position: center;
+            border: 1px solid #ddd;
+            cursor: pointer;
+        }
+    .immagine5 {
+            background-image: url('pernottare.jpg');
+            width: 80px;
+            height: 80px;
+            display: block;
+            text-indent: -9999px;
+            transition: background-image 0.3s ease;
+            flex: 0 0 calc(33.33% - 20px);
+            margin: 0 10px;
+            background-size: cover;
+            background-position: center;
+            border: 1px solid #ddd;
+            cursor: pointer;
+        }
+    .immagine6 {
+            background-image: url('trasporto.jpg');
+            width: 80px;
+            height: 80px;
+            display: block;
+            text-indent: -9999px;
+            transition: background-image 0.3s ease;
+            flex: 0 0 calc(33.33% - 20px);
+            margin: 0 10px;
+            background-size: cover;
+            background-position: center;
+            border: 1px solid #ddd;
+            cursor: pointer;
+        }
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+            width: 80%;
+        }
+        .row1 {
+            display: flex;
+            justify-content: space-evenly;
+            width: 90%;
+            margin: 10px 0;
+        }
+        .row2 {
+            display: flex;
+            justify-content: space-evenly;
+            width: 90%;
+            margin: 10px 0;
+        }
+
+        .imperoquattroregni{
+            margin-left: 80px;
+            font-family: verdana;
+            padding-top: 20px;
+        }
+
+img {
+    -webkit-user-drag: none;
+    -khtml-user-drag: none;
+    -moz-user-drag: none;
+    -o-user-drag: none;
+    user-drag: none;
+
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+
+    pointer-events: none;
+}
